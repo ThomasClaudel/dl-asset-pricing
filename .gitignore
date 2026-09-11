@@ -1,0 +1,25 @@
+# environment
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# data: 3.8 GB, CRSP-derived, released by the paper's authors -- see README for the download
+data/
+
+# the authors' TensorFlow-1.12 repository (git clone; cite github.com/jasonzy121/Deep_Learning_Asset_Pricing instead)
+official_code/
+
+# paper PDF (arXiv:1904.00745)
+paper/
+
+# large per-trial arrays (reproducible from the checkpoints with export_factors.py)
+runs/*/train.npz
+runs/*/valid.npz
+runs/*/test.npz
+results/*.npz
+
+# LaTeX intermediates
+report/*.aux
+report/*.log
+report/*.out

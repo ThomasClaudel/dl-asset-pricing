@@ -1,0 +1,7 @@
+[UNC    0] loss 3.326e-02 vloss 4.320e-02 SR tr/va/te -0.08/-0.05/-0.16  3s
+[UNC   64] loss 1.300e-04 vloss 7.188e-03 SR tr/va/te 0.26/0.32/-0.02  96s
+[UNC  128] loss 8.667e-05 vloss 2.643e-03 SR tr/va/te 0.40/0.41/-0.04  190s
+[UNC  192] loss 5.751e-05 vloss 2.217e-03 SR tr/va/te 0.54/0.46/-0.03  290s
+[MOMENT] adversarial loss raised to 2.378e-04
+[GAN    0] loss 1.882e-03 vloss 4.081e-02 SR tr/va/te 0.05/0.06/-0.16  3s
+[GAN   64] loss 1.704e-05 vloss 2.080e-03 SR tr/va/te 0.94/0.55/0.04  289s

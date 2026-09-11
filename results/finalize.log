@@ -1,0 +1,33 @@
+== ensemble + figures
+9 finished trials: ['runs/trial_0', 'runs/trial_1', 'runs/trial_2', 'runs/trial_3', 'runs/trial_4', 'runs/trial_5', 'runs/trial_6', 'runs/trial_7', 'runs/trial_8']
+                                              train  valid  test
+GAN – our PyTorch retrain (9-model ensemble)   2.48   1.29  0.66
+GAN – authors' checkpoints through our port    3.02   1.39  0.77
+GAN – paper Table I                            2.68   1.43  0.75
+UNC (g=1) – ours                               1.52   0.70  0.45
+UNC – paper                                    1.93   1.33  0.53
+Ridge (EN) – ours                              1.77   1.24  0.49
+EN – paper                                     1.37   1.15  0.50
+LS – ours                                      1.98   0.79  0.42
+LS – paper                                     1.80   0.58  0.42
+figures written: ['figures/fig_cumret.pdf', 'figures/fig_importance.pdf', 'figures/fig_sharpe.pdf', 'figures/fig_states.pdf', 'figures/fig_training.pdf']
+== extensions
+valid {"turnover_long": 0.383, "turnover_short": 0.984, "dollar_turnover": 0.945, "sr_gross": 1.286, "max_1m_loss": -0.005, "std_monthly": 0.007, "sr_net_10bp": 1.16, "sr_net_25bp": 0.969, "sr_net_50bp": 0.647}
+test {"turnover_long": 0.399, "turnover_short": 0.974, "dollar_turnover": 0.944, "sr_gross": 0.655, "max_1m_loss": -0.042, "std_monthly": 0.012, "sr_net_10bp": 0.573, "sr_net_25bp": 0.449, "sr_net_50bp": 0.245, "sr_1992_2004": 0.832, "sr_2005_2016": 0.473, "sr_excl_2008_2009": 0.709, "max_drawdown_cum": 0.062}
+== beta network (MPS)
+seed 0: best valid mse 0.0092
+seed 1: best valid mse 0.0092
+seed 2: best valid mse 0.0092
+train  EV 0.168   XS-R2 -0.046   XS-R2 (weighted, Table I) 0.136
+valid  EV 0.074   XS-R2 0.040   XS-R2 (weighted, Table I) 0.014
+test   EV 0.064   XS-R2 0.044   XS-R2 (weighted, Table I) 0.220
+paper GAN Table I:  EV train/valid/test 0.20/0.09/0.08   XS-R2 0.12/0.01/0.23
+== numbers.tex
+== report
+Pages:           2
+== published-series check
+train {'sr_published': 2.684, 'corr_port': 0.916, 'corr_ours': 0.84}
+valid {'sr_published': 1.428, 'corr_port': 0.867, 'corr_ours': 0.769}
+test {'sr_published': 0.75, 'corr_port': 0.868, 'corr_ours': 0.832}
+Pages:           2
+== DONE

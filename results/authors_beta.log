@@ -1,0 +1,8 @@
+seed 0: best valid mse 0.0116
+seed 1: best valid mse 0.0116
+seed 2: best valid mse 0.0116
+train  EV 0.165   XS-R2 -0.034   XS-R2 (weighted, Table I) 0.131
+valid  EV 0.074   XS-R2 0.038   XS-R2 (weighted, Table I) 0.002
+test   EV 0.065   XS-R2 0.042   XS-R2 (weighted, Table I) 0.210
+paper GAN Table I:  EV train/valid/test 0.20/0.09/0.08   XS-R2 0.12/0.01/0.23
+python beta_ffn.py results/authors_ensemble 3 mps  122.68s user 12.16s system 19% cpu 11:39.32 total

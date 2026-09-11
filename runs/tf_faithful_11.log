@@ -1,0 +1,22 @@
+[UNC    0] loss 2.971e-02 vloss 5.580e-02 SR tr/va/te 0.11/0.14/0.10  11s
+[UNC   64] loss 5.652e-05 vloss 1.562e-03 SR tr/va/te 0.31/0.05/0.06  90s
+[UNC  128] loss 4.261e-05 vloss 1.133e-03 SR tr/va/te 0.58/0.22/0.13  173s
+[UNC  192] loss 4.902e-05 vloss 9.176e-04 SR tr/va/te 0.81/0.39/0.20  257s
+[MOMENT] adversarial loss raised to 1.170e-04
+[GAN    0] loss 1.818e-03 vloss 4.896e-02 SR tr/va/te 0.27/0.19/0.25  3s
+[GAN   64] loss 2.196e-05 vloss 9.576e-04 SR tr/va/te 1.30/0.57/0.32  119s
+[GAN  128] loss 1.412e-05 vloss 9.268e-04 SR tr/va/te 1.48/0.64/0.36  233s
+[GAN  192] loss 1.067e-05 vloss 7.889e-04 SR tr/va/te 1.60/0.71/0.41  345s
+[GAN  256] loss 1.150e-05 vloss 1.450e-03 SR tr/va/te 1.62/0.63/0.43  454s
+[GAN  320] loss 1.078e-05 vloss 7.230e-04 SR tr/va/te 1.69/0.79/0.46  563s
+[GAN  384] loss 1.198e-05 vloss 6.154e-04 SR tr/va/te 1.73/0.84/0.50  677s
+[GAN  448] loss 8.856e-06 vloss 6.313e-04 SR tr/va/te 1.92/0.86/0.54  787s
+[GAN  512] loss 4.959e-06 vloss 9.624e-04 SR tr/va/te 1.96/0.78/0.56  901s
+[GAN  576] loss 5.119e-06 vloss 6.733e-04 SR tr/va/te 2.06/0.89/0.58  1015s
+[GAN  640] loss 1.222e-05 vloss 6.694e-04 SR tr/va/te 2.15/0.91/0.61  1121s
+[GAN  704] loss 7.843e-06 vloss 6.307e-04 SR tr/va/te 1.67/1.02/0.57  1180s
+[GAN  768] loss 3.685e-06 vloss 3.989e-04 SR tr/va/te 2.06/1.08/0.63  1242s
+[GAN  832] loss 3.507e-06 vloss 6.269e-04 SR tr/va/te 2.23/0.98/0.65  1307s
+[GAN  896] loss 2.812e-06 vloss 4.578e-04 SR tr/va/te 2.27/1.08/0.67  1377s
+[GAN  960] loss 5.004e-06 vloss 4.618e-04 SR tr/va/te 2.34/1.10/0.68  1447s
+FINAL (best valid Sharpe)  SR train/valid/test: 2.277 / 1.163 / 0.687
